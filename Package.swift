@@ -3,7 +3,7 @@ import PackageDescription
 
 let package = Package(
 	name: "YAJL",
-	platforms: [.iOS("12.0"), .watchOS("9.0"), .tvOS("12.0"), .visionOS("1.0")],
+	platforms: [.iOS("13.0"), .watchOS("9.0"), .tvOS("13.0"), .visionOS("1.0")],
 	products: [
 		.library(
 			name: "YAJL",
@@ -21,8 +21,8 @@ let package = Package(
 				path: "Sources"),
 		.binaryTarget(
 			name: "YAJL",
-			url: "https://pkgs.genexus.dev/iOS/beta/YAJL-2.2.0-beta.21.xcframework.zip",
-			checksum: "d511fc194313c43d4841b9f476810572e7ca12c12234a39e58bb242ae7760e00"
+			url: "https://pkgs.genexus.dev/iOS/beta/YAJL-2.2.0-beta.24.xcframework.zip",
+			checksum: "d2cccc9e9695404389541be7c6c61e14ba3fa0c521e76482a46f75d83901faf3"
 		)
 	]
 )
