@@ -1,9 +1,9 @@
-// swift-tools-version: 5.7
+// swift-tools-version: 5.9
 import PackageDescription
 
 let package = Package(
 	name: "YAJL",
-	platforms: [.iOS("12.0"), .watchOS("5.0"), .tvOS("12.0")],
+	platforms: [.iOS("15.0"), .watchOS("10.0"), .tvOS("18.0"), .visionOS("2.0")],
 	products: [
 		.library(
 			name: "YAJL",
@@ -21,8 +21,8 @@ let package = Package(
 				path: "Sources"),
 		.binaryTarget(
 			name: "YAJL",
-			url: "https://pkgs.genexus.dev/iOS/releases/YAJL-1.1.0.xcframework.zip",
-			checksum: "b8d5507295ec23d18e047159b5a449091b0b45d2409b682cf609ba3f289a35a9"
+			url: "https://pkgs.genexus.dev/iOS/preview/YAJL-4.1.0-rc.3.xcframework.zip",
+			checksum: "9185aa37ad8795daed026bc28837b975ed02437490c301e6542cd868279f88e8"
 		)
 	]
 )
