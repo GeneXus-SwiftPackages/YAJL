@@ -21,8 +21,8 @@ let package = Package(
 				path: "Sources"),
 		.binaryTarget(
 			name: "YAJL",
-			url: "https://pkgs.genexus.dev/iOS/beta/YAJL-4.2.0-beta.39.xcframework.zip",
-			checksum: "fe96cb106275dde7861f5b74df5e349936334d6fede9285c1a283c79c6713c59"
+			url: "https://pkgs.genexus.dev/iOS/beta/YAJL-5.0.0-beta.1.xcframework.zip",
+			checksum: "8e248fd8002f951f3b9d6fa202ae96c618328972885116efedf8cc19353e077e"
 		)
 	]
 )
